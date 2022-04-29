@@ -1,0 +1,39 @@
+body
+{
+    background-color: lightskyblue;
+}
+.SnowMan
+{
+    /* Cheshme Chap */
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 50%;
+    box-shadow: 
+    /* Cheshme Raast */
+    20px 0px 0px 0px black ,
+    /* Bini  */
+    10px 15px 0px 0.8px orange ,
+    /* Dahan */
+    2px 30px 0px -1px black ,
+    6px 31px 0px -1px black ,
+    10px 31.5px 0px -1px black ,
+    14px 31px 0px -1px black ,
+    18px 30px 0px -1px black ,
+    /* Kalle */
+    10px 15px 0px 40px white ,
+    10px 15px 10px 40px black ,
+    /* Dokme haa */
+    10px 85px 0px 1px black ,
+    10px 105px 0px 1px black ,
+    10px 125px 0px 1px black ,
+    10px 145px 0px 1px black ,
+    /* Badan */
+    10px 117px 0px 72px white ,
+    10px 117px 10px 72px black ,
+    /* Zamin */
+    10px 460px 0px 300px #99491c
+    ;
+}
