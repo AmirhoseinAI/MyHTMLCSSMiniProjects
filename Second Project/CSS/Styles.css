@@ -1,0 +1,72 @@
+*
+{
+    /* Az bein bordane margin va padding pishfarze barkhi az anasor */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face 
+{
+    font-family: 'ByeKaN';
+    src: url('../Fonts/Byekan.ttf') format('truetype') ,
+    url('../Fonts/Byekan.woff') format('woff');
+}
+@font-face 
+{
+    font-family: 'LaLeZaR';
+    src: url('../Fonts/lalezar.ttf') format('truetype') ,
+    url('../Fonts/lalezar.woff') format('woff');
+}
+body
+{
+    font-family: ByeKaN;
+}
+.Header
+{
+    height: 600px;
+    background-image: url("../Images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+}
+.Header .Nav-List
+{
+    list-style-type: none;
+}
+.Header .Nav-List .Nav-Item
+{
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+}
+.Header .Nav-List .Nav-Item:hover
+{
+    color: cadetblue;
+}
+.Header .Title
+{
+    font-size: 100px;
+    font-family: LaLeZaR;
+    margin-top: 80px;
+}
+.Header .Title span
+{
+    color: aqua;
+}
+.Header .Desc
+{
+    margin: auto;
+    font-size: 25px;
+    width: 550px;
+    height: 70px;
+    /* in ye trick baraye vasatchin kardan az lahaze amoodie ke miaym propertye line-height ro barabar ba height gharar midim */
+    line-height: 70px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    /* dar rangbandie rgba chaharomin parametr ke alpha mishe meghdari beyne 1 va 0 migire ke harchi in adad be 0 nazdiktar bashe rang shafaf tar mishe */
+    background-color: rgba(0, 0, 0, 0.4);
+}
