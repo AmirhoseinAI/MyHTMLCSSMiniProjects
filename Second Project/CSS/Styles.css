@@ -70,3 +70,36 @@ body
     /* dar rangbandie rgba chaharomin parametr ke alpha mishe meghdari beyne 1 va 0 migire ke harchi in adad be 0 nazdiktar bashe rang shafaf tar mishe */
     background-color: rgba(0, 0, 0, 0.4);
 }
+.Members
+{
+    text-align: center;
+    padding: 50px 30px;
+}
+.Members-List
+{
+    list-style-type: none;
+    margin-top: 24px;
+}
+.Members-Item
+{
+    width: 350px;
+    display: inline-block;
+    margin: 0px 10px;
+    box-shadow: 0 0 11px gray;
+}
+.Member_Pic
+{
+    width: 100%;
+}
+.Member-Name
+{
+  font-size: 25px;
+  margin-top: 5px;
+}
+.Member-Bio
+{
+    font-family: LaLeZaR;
+    padding: 20px;
+    text-align: justify;
+}
+
